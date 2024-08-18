@@ -1,0 +1,110 @@
+.h_home-layout {
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.h_home-sider {
+  background: #001529;
+  color: #fff;
+
+  .h_logo {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 16px;
+    text-align: center;
+  }
+
+  .ant-menu {
+    background: #001529;
+    border-right: none;
+
+    .ant-menu-item {
+      font-size: 16px;
+      padding: 16px;
+    }
+
+    .ant-menu-item-selected {
+      background: #1890ff !important;
+      color: #fff;
+    }
+  }
+}
+
+.h_home-header {
+  background: #fff;
+  padding: 0 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .h_header-left {
+    display: flex;
+    align-items: center;
+
+    .h_search-input {
+      margin-right: 20px;
+      width: 400px;
+    }
+  }
+
+  .h_header-right {
+    display: flex;
+    align-items: center;
+
+    .h_add-button {
+      margin-right: 20px;
+    }
+
+    .h_add-popover {
+      .ant-popover-content {
+        min-width: 200px;
+      }
+    }
+
+    .h_profile-menu {
+      display: flex;
+      align-items: center;
+
+      .ant-avatar {
+        margin-right: 8px;
+      }
+    }
+  }
+}
+
+.h_home-content {
+  padding: 20px;
+  background: #f5f5f5;
+
+  .h_hero-section {
+    text-align: center;
+    padding: 40px;
+    background: #1890ff; // Màu nền cho hero section
+    color: #fff;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+
+  .h_notes-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+    .ant-card {
+      width: 100%;
+      max-width: 400px;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+  }
+}
+
+.h_home-footer {
+  text-align: center;
+  padding: 20px;
+  background: #001529; // Màu nền tối cho footer
+  color: #fff;
+}

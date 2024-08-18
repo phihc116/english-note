@@ -1,0 +1,77 @@
+.s_sign-in {
+  display: flex;
+  height: 100vh;
+
+  .s_form-sign-in {
+    flex: 0 0 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3.6rem;
+    background-color: #f7f7f7;
+
+    .s_introduction {
+      margin-bottom: 3.6rem;
+      text-align: center;
+
+      h2 {
+        font-size: 3.6rem;
+        margin-bottom: 1.6rem;
+      }
+
+      p {
+        font-size: 2rem;
+        color: #888;
+      }
+    }
+
+    .s_form {
+      width: 100%;
+      max-width: 600px;
+
+      .s_more-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .s_forgot-password {
+        color: #1890ff;
+      }
+
+      .s_sign-in-button {
+        width: 100%;
+        margin-top: 1.6rem;
+        background-color: #1890ff;
+        border: none;
+
+        &:hover {
+          background-color: #40a9ff;
+        }
+      }
+
+      .s_register-link {
+        margin-top: 1.6rem;
+        text-align: center;
+
+        span {
+          margin-right: 0.5rem;
+        }
+
+        a {
+          color: #1890ff;
+        }
+      }
+    }
+  }
+
+  .s_image-decorator {
+    flex: 1;
+    img {
+      height: 100vh;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+}
