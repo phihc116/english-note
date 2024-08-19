@@ -6,4 +6,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\English.Note.Application\English.Note.Application.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\English.Note.Infrastructure.Identity\English.Note.Infrastructure.Identity.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\English.Note.Infrastructure.Persistence\English.Note.Infrastructure.Persistence.csproj" />
+  </ItemGroup>
+
 </Project>
